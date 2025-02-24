@@ -3,8 +3,11 @@ using namespace std;
 int main()
 {
 int x,y;
-x=5;
-y=2;
-cout<< x+y <<endl;
-cout<< x-2 * y<<endl;
+cout<<"enter the value of x and y"<<endl;
+cin>>x>>y;
+cout<< x + y <<endl;
+cout<< x - y<<endl;
+cout<< x * y<<endl;
+cout<< x / y<<endl;
+cout<< x % y<<endl;
 }
